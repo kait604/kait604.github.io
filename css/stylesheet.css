@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body {
-   background-image: url('https://res.allmacwallpaper.com/pic/Thumbnails/2871_728.jpg');
+   background-image: url('../images/background.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
