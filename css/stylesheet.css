@@ -9,7 +9,7 @@ a:hover, a:active {
 }
 body {
    background-color: black;
-   background-image: url('../images/background.jpg') no-repeat center center fixed;
+   background-image: url('../images/background.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
