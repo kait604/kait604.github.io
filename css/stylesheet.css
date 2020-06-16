@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+a:link, a:visited, a:hover, a:active {
+   color: #4c4faf;
+}
 body {
    background-color: black;
    background-image: url('../images/background.jpg') no-repeat center center fixed;
