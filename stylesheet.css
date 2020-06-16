@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+html {
+  background-image: url('https://res.allmacwallpaper.com/pic/Thumbnails/2871_728.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
-  background-image: url('https://res.allmacwallpaper.com/pic/Thumbnails/2871_728.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   color: white;
 }
 
