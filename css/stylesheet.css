@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-html {
-  background-image: url('https://ianoliver604.github.io/images/background.jpg') no-repeat center center fixed;
+body {
+   background-image: url('https://ianoliver604.github.io/images/background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-body {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
   color: white;
