@@ -18,7 +18,8 @@
 <div style="padding-left:16px; padding-top:16px">
 <!-- Display the countdown timer in an element -->
 <p id="demo"></p>
-
+</div>
+  
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
@@ -40,7 +41,7 @@ var x = setInterval(function() {
 
   // Display the result in the element with id="demo"
   document.getElementById("demo").innerHTML = days + ":" + hours + ":"
-  + minutes + ":" + seconds + ":";
+  + minutes + ":" + seconds;
 
   // If the count down is finished, write some text
   if (distance < 0) {
@@ -49,7 +50,6 @@ var x = setInterval(function() {
   }
 }, 1000);
 </script>
-</div>
 
 </body>
 </html>
