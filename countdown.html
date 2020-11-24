@@ -17,7 +17,7 @@
 
 <div style="padding-left:16px; padding-top:16px">
 <!-- Display the countdown timer in an element -->
-<p style="text-align: center; font-size: 200%" id="demo"></p>
+<p style="text-align: center; font-size: 500%" id="demo"></p>
 </div>
   
 <script>
@@ -35,13 +35,17 @@ var x = setInterval(function() {
 
   // Time calculations for days, hours, minutes and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var prepdays = String(days).padStart(2, '0')
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var prephours = String(hours).padStart(2, '0')
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var prepminutes = String(minutes).padStart(2, '0')
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  var prepseconds = String(seconds).padStart(2, '0')
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + ":" + hours + ":"
-  + minutes + ":" + seconds;
+  document.getElementById("demo").innerHTML = prepdays + ":" + prephours + ":"
+  + prepminutes + ":" + prepseconds;
 
   // If the count down is finished, write some text
   if (distance < 0) {
