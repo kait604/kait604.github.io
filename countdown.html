@@ -29,7 +29,7 @@ var x = setInterval(function() {
 
   // Get today's date and time
   var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
-  var now = new Date(utc + 3600000);
+  var now = new Date(utc);
 
   // Find the distance between now and the count down date
   var distance = countDownDate - now;
