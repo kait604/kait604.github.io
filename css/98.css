@@ -254,7 +254,7 @@ button:disabled,
 
 .title-bar-controls button[aria-label="Close"] {
   margin-left: 2px;
-  background-image: svg-load("https://kait604.github.io/assets/icon/.svg");
+  background-image: svg-load("https://kait604.github.io/assets/icon/close.svg");
   background-repeat: no-repeat;
   background-position: top 3px left 4px;
 }
