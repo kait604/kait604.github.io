@@ -10,22 +10,6 @@
       <title>Windows 98</title>
     </head>
     <body>
-      <script>
-	      $(() => {
-          const $app_window_1 = new $Window({ title: "Application Window", resizable: true });
-	        $app_window_1.$content.append(`
-	          <p>This is a window that can be moved around and resized.</p>
-         `);
-	const $windows_and_$positioners = [
-		[$app_window_1, $("#app-window-example")],
-	];
-	for (const [$window, $positioning_el] of $windows_and_$positioners) {
-		$window.css({
-			left: $positioning_el.offset().left,
-			top: $positioning_el.offset().top
-		});
-	}
-        });
-      </script>
+      <script src="98.js"></script>
     </body>
   </html>
