@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="3CcKU9S9foVX_KLHF7fDSiprT1xdI7T1DI0OFLmhbjU" />
-<link rel="stylesheet" href="https://unpkg.com/98.css">
-<title>Windows 98</title>
-</head>
-<body style="background-color:#00807F">
-
-<div class="window" style="width: 300px">
-  <div class="title-bar">
-    <div class="title-bar-text">Test</div>
-    <div class="title-bar-controls">
-    <button aria-label="Minimize"></button>
-    <button aria-label="Maximize"></button>
-    <button aria-label="Close"></button>
-    </div>
-  </div>
-  <div class="window-body">
-  <p>Test</p>
-  </div>
-</div>
-
-</body>
-</html>
+  <html>
+    <head>
+      <link href="os-gui/layout.css" rel="stylesheet" type="text/css">
+      <link href="os-gui/windows-98.css" rel="stylesheet" type="text/css">
+      <link href="os-gui/windows-default.css" rel="stylesheet" type="text/css">
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js></script>
+      <script src="os-gui/$MenuBar.js"></script>
+      <script src="os-gui/$Window.js"></script>
+      <title>Windows 98</title>
+    </head>
+    <body>
+      <script>
+        $(() => {
+          const $app_window_1 = new $Window({ title: "Application Window", resizable: true });
+          $app_window_1.$content.append(`
+            <p>This is a window that can be moved around and resized.</p>
+          `);
+        });
+      </script>
+    </body>
+  </html>
