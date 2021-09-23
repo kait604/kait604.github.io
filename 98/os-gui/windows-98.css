@@ -255,10 +255,15 @@ body > .window-titlebar {
 }
 
 .os-window .window-titlebar, body > .window-titlebar {
-	font-family: 'Segoe UI', sans-serif;
+	font-family: 'Pixelated MS Sans Serif';
+	src: url("fonts/ms_sans_serif.woff") format("woff");
+	src: url("fonts/ms_sans_serif.woff2") format("woff2");
 	font-size: 12px;
 }
 .os-window:not(.tool-window) .window-titlebar {
+	font-family: "Pixelated MS Sans Serif";
+        src: url("fonts/converted/ms_sans_serif_bold.woff") format("woff");
+        src: url("fonts/converted/ms_sans_serif_bold.woff2") format("woff2");
 	font-weight: bold;
 }
 .os-window:not(.focused) .window-titlebar {
@@ -421,7 +426,9 @@ body > .window-titlebar {
 	color: var(--GrayText);
 }
 .menus *, .menu-popup * {
-	font-family: 'Segoe UI', sans-serif;
+	font-family: 'Pixelated MS Sans Serif';
+	src: url("fonts/ms_sans_serif.woff") format("woff");
+	src: url("fonts/ms_sans_serif.woff2") format("woff2");
 	font-size: 12px;
 }
 .menu-container {
