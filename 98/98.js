@@ -3,4 +3,5 @@ const $test = new $Window({
   outerWidth: 400,
   outerHeight: 300,
   resizable: true,
-})
+});
+center($test);
